@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2E8BC0;
+}
+
+#navbar{
+	width: 100%;
+	position: sticky;
+	top:0;
+	display: flex;
+	align-items: center	;
+	background-color: #B1D4E0;
+	padding: 0px;
+	margin-bottom: 0px;
+	border: 1.5px solid black;
+}
+
+#navbarTitle{
+	position: relative;
+	left: 40px;
+	display: inline-block;
+	color: darkslategray;
+}
+
+.navbarButton, .navbarButton:visited{
+	position: relative;
+	left: 65%;
+	color: darkslategray;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navbarButton:hover{
+	background-color: darkslategray;
+	color: #B1D4E0;
+}
+#coverTitle{
+	position: relative;
+	top: 120px;
+	color: White;
+	margin-top: 0px;
+	font-size: 35pt;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+#cover{
+	display: flex;
+	justify-content: center;
+	background-image: url(https://www.nsta.org/sites/default/files/2020-06/Birney_opener.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 500px;	
+	margin-top:0px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	padding: 0px;
+	text-align: center;
+}
+
+.contentContainer{
+	width: 45%;
+	margin: 10px;
+
+}
+
+.contentText{
+	width: 45%;
+	top: 100px;
+	position: relative;
+	margin-bottom: 5px;
+	color: #B1D4E0;
+
+}
+
+.contentImage{		
+	display: inline-block;
+	height: 350px;
+	margin: 0px;
+	object-fit: cover;
+	border: solid;
+}
+
+p{
+	margin: 0px;
+	text-align: justify;
+	color: #B1D4E0;
+	font-size: 25px;
+}

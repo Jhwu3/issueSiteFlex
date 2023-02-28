@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background-color: #2E8BC0;
+}
+
+#navbar{
+	width: 100%;
+	position: sticky;
+	top:0;
+	display: flex;
+	align-items: center	;
+	background-color: #B1D4E0;
+	padding: 0px;
+	margin-bottom: 0px;
+	border: 1.5px solid black;
+}
+
+#navbarTitle{
+	position: relative;
+	left: 40px;
+	display: inline-block;
+	color: darkslategray;
+}
+
+.navbarButton, .navbarButton:visited{
+	position: relative;
+	left: 65%;
+	color: darkslategray;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navbarButton:hover{
+	background-color: darkslategray;
+	color: #B1D4E0;
+}
+#coverTitle{
+	position: relative;
+	top: 120px;
+	color: White;
+	margin-top: 0px;
+	font-size: 35pt;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+#cover{
+	display: flex;
+	justify-content: center;
+	background-image: url(https://untappedcities.com/wp-content/uploads/2018/08/featured-giant-oyster-river-project-nyc-untapped-cities1-1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 500px;
+	margin-top: -30	px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	padding: 0px;
+	text-align: center;
+}
+
+.contentContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+	margin: 20px;
+
+}
+
+.contentText{
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #B1D4E0;
+
+}
+
+.contentImage{		
+	height: 350px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	margin: 0px;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+}
+
+p{
+	margin: 0px;
+	text-align: justify;
+	color: #B1D4E0;
+	margin-bottom: 20px;
+}
+
+.contentButton{
+	background-color: #B1D4E0 ;
+	color: darkslategray;
+	padding:10px;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+.contentButton:hover{
+	background-color: darkslategray;
+	color: #B1D4E0;
+	border-radius: 4px;
+}
+
+
+
+
+
